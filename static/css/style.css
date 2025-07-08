@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav .search input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    /* border-radius: 5px; */
+    padding: 0 30px;
+    font-size: 14px;
+    font-weight: 500;
+    outline: none;
+}
+
+.my {
+    text-decoration: none;
+}
+
+.brands{
+    background-color: rgb(253 250 245);
+}
+
+.features{
+    background-color: #fafafa;
+}
+
+.login-btn{
+    background-color: #fdfaf5;
+}
+
+#add-cart{
+    border-color: #dda243;
+    background-color: #fefaf5;
+}
+
+#buy-now{
+    background-color:  #dda243;
+}
+
+.card-page #add-cart button{
+    background-color: #dda243;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+.product-card {
+    border: none;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.product-card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.sale-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #e74c3c;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.wishlist-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #333;
+    background: #fff;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+
+:root{
+    --primary-color: #3498db;
+    --secondary-color: #2c3e50;
+    --border-color:#373737;
+    --white: #fff;
+    --black: #000;
+}
+
+/* Register Form */
+
+.form-wrapper{
+    border: 1px solid var(--border-color);
+}
+
+.form-container {
+    padding: 15px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.form-group input{
+    position: relative;
+    border: 1px solid var(--border-color);
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+    background: var(--white);
+    font-size: 14px;
+    line-height: 1;
+    color: var(--black);
+    outline: none;
+    transition: all .3s ease-in-out;
+    border-radius: 0;
+}
+
+.form-wrapper h4 {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+
+/* Login Form */
+
+.login-form p {
+    margin-bottom: 15px;
+}
+
+.login-form .form-heading h4 {
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.login-form p {
+    margin-bottom: 15px;
+}
+
+.reg-lbl {
+    font-size: 14px;
+    margin-right: 10px;
+}
